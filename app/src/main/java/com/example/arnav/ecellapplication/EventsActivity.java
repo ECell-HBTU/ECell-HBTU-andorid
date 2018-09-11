@@ -30,8 +30,15 @@ public class EventsActivity extends AppCompatActivity {
     private void initializeData(){
         events=new ArrayList<>();
 
-        events.add(new Event("Startup Boosting Workshop","1st Sept, 2018","11AM to 1PM",R.drawable.img));
-        events.add(new Event("Talk on Waste Management and start-ups Q/A session","23rd Oct, 2018","5PM to 6PM",R.drawable.img));
-        events.add(new Event("How to gain traction in the initial months?","11th Sept, 2018","10AM to 11AM",R.drawable.img));
+        events.add(new Event("Startup Boosting Workshop","1st Sept, 2018","11AM to 1PM",R.drawable.ic_launcher));
+        events.add(new Event("Talk on Waste Management and start-ups Q/A session","23rd Oct, 2018","5PM to 6PM",R.drawable.ic_launcher));
+        events.add(new Event("How to gain traction in the initial months?","11th Sept, 2018","10AM to 11AM",R.drawable.ic_launcher));
+        events.add(new Event("How to gain","12th Sept, 2018","10AM to 1PM",R.drawable.ic_launcher));
+        events.add(new Event("traction in the initial months?","12th Sept, 2018","10AM to 1PM",R.drawable.ic_launcher));
+        events.add(new Event(" the initial months?","12th Sept, 2018","10AM to 1PM",R.drawable.ic_launcher));
+        events.add(new Event("How to gain traction in the initial months?","12th Sept, 2018","10AM to 1PM",R.drawable.ic_launcher));
+        events.add(new Event(" in the initial months?","12th Sept, 2018","10AM to 1PM",R.drawable.ic_launcher));
+        events.add(new Event(" traction in the initial months?","12th Sept, 2018","10AM to 1PM",R.drawable.ic_launcher));
+        events.add(new Event("How to gain traction in the initial months?","12th Sept, 2018","10AM to 1PM",R.drawable.ic_launcher));
     }
 }
