@@ -15,7 +15,7 @@ public class EventsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_events);
 
-        RecyclerView rView=(RecyclerView)findViewById(R.id.eventList);
+        RecyclerView rView= findViewById(R.id.eventList);
         rView.setHasFixedSize(true);
 
         LinearLayoutManager llm= new LinearLayoutManager(this);

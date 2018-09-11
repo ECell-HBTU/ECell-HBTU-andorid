@@ -21,11 +21,11 @@ public class RViewAdapter extends RecyclerView.Adapter<RViewAdapter.EventViewHol
 
         EventViewHolder(View itemView){
             super(itemView);                        //what does this constructor do and how are we able to call fvbi on a view object
-            CView=(CardView)itemView.findViewById(R.id.CView);
-            eventTitle=(TextView)itemView.findViewById(R.id.event_title);
-            eventDate=(TextView)itemView.findViewById(R.id.event_date);
-            eventTiming=(TextView)itemView.findViewById(R.id.event_timing);
-            eventImage=(ImageView)itemView.findViewById(R.id.event_image);
+            CView= itemView.findViewById(R.id.CView);
+            eventTitle= itemView.findViewById(R.id.event_title);
+            eventDate= itemView.findViewById(R.id.event_date);
+            eventTiming= itemView.findViewById(R.id.event_timing);
+            eventImage= itemView.findViewById(R.id.event_image);
         }
     }
 
