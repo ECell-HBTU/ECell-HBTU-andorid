@@ -1,1 +1,1 @@
-include ':app', ':swipeView'
+include ':app', ':com.example.arnav.ecellapplication.swipeView'
