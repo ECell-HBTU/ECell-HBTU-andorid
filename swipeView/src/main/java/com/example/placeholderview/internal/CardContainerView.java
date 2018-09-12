@@ -1,4 +1,4 @@
-package com.example.arnav.ecellapplication.swipeView.internal;
+package com.example.placeholderview.internal;
 
 import android.animation.AnimatorSet;
 import android.content.Context;
@@ -14,8 +14,8 @@ import android.view.ViewGroup;
 import android.view.animation.OvershootInterpolator;
 import android.widget.FrameLayout;
 
-import com.example.arnav.ecellapplication.R;
-import com.example.arnav.ecellapplication.swipeView.SwipeDirection;
+import com.example.placeholderview.R;
+import com.example.placeholderview.SwipeDirection;
 
 
 public class CardContainerView extends FrameLayout {
