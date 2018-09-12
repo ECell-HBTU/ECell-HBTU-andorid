@@ -95,7 +95,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.archives) {
 
         } else if (id == R.id.enter) {
-
+            Intent intent = new Intent(this,FeedbackActivity.class);
+            startActivity(intent);
         } else if (id == R.id.share) {
 
         }

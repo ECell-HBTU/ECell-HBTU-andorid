@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity">
+<com.example.arnav.ecellapplication.swipeView.CardStackView
+    android:id="@+id/activity_main_card_stack_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="32dp"
+    android:paddingBottom="32dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:clipToPadding="false"
+    app:visibleCount="3"
+    app:swipeThreshold="0.75"
+    app:translationDiff="12"
+    app:scaleDiff="0.02"
+    app:stackFrom="top"
+    app:elevationEnabled="true"
+    app:swipeEnabled="true"
+    app:swipeDirection="freedom_no_bottom"
+    app:leftOverlay="@layout/overlay_left"
+    app:rightOverlay="@layout/overlay_right"
+    app:topOverlay="@layout/overlay_top" />
+</android.support.constraint.ConstraintLayout>

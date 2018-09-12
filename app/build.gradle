@@ -22,7 +22,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     //added the following for the swiping layout
-  /*  implementation 'com.mindorks:placeholderview:0.7.1'
+    /*  implementation 'com.mindorks:placeholderview:0.7.1'
     implementation 'com.github.bumptech.glide:glide:3.7.0'
     implementation 'com.google.code.gson:gson:2.7'*/
 
