@@ -3,8 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="25dp"
     android:elevation="6dp"
-    android:id="@+id/CView">
+    android:id="@+id/CView"
+    android:clickable="true"
+    android:focusable="true">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,10 +15,9 @@
         android:padding="15dp">
         <ImageView
             android:id="@+id/event_image"
-            android:src="@drawable/img"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:scaleType="fitCenter"/><!--may need to change scaleType-->
+            android:scaleType="center"/><!--may need to change scaleType-->
 
         <TextView
             android:id="@+id/event_title"

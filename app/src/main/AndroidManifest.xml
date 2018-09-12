@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".EventsActivity" />
+        <activity android:name=".EventDetailActivity"></activity>
         <activity android:name=".FeedbackActivity"></activity>
     </application>
 
