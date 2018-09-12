@@ -27,7 +27,7 @@
             <item
                 android:id="@+id/enter"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Enter Binder" />
+                android:title="FeedBack" />
             <item
                 android:id="@+id/share"
                 android:icon="@drawable/ic_menu_share"
