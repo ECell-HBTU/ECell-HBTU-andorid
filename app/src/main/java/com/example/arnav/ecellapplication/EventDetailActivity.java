@@ -34,4 +34,10 @@ public class EventDetailActivity extends AppCompatActivity {
         Intent intent=new Intent(this,EventsActivity.class);
         startActivity(intent);
     }
+
+    public void toRegistrationActivity(View v){
+        Intent intent=new Intent(this,RegistrationActivity.class);
+        intent.putExtra("EVENT_TITLE",eventTitle);
+        startActivity(intent);
+    }
 }
