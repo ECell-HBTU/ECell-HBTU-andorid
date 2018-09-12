@@ -22,8 +22,8 @@ public class EventDetailActivity extends AppCompatActivity {
             eventImageId=extras.getInt("EVENT_IMAGE_ID");
         }
         System.out.println("idddd: "+eventImageId);
-        TextView title=(TextView)findViewById(R.id.event_title);
-        ImageView image=(ImageView)findViewById(R.id.event_image);
+        TextView title= findViewById(R.id.event_title);
+        ImageView image= findViewById(R.id.event_image);
 
         title.setText(eventTitle);
         image.setBackground(getResources().getDrawable(eventImageId));
