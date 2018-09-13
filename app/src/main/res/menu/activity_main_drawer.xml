@@ -7,18 +7,18 @@
         <item
             android:id="@+id/team"
             android:icon="@mipmap/team"
-            android:title="Team" />
+            android:title="Team"/>
         <item
             android:id="@+id/events"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@mipmap/events_icon"
             android:title="Events" />
         <item
             android:id="@+id/vision"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@mipmap/vision_material_icon"
             android:title="Vision" />
         <item
             android:id="@+id/archives"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_menu_gallery"
             android:title="Archives" />
     </group>
 
@@ -26,7 +26,7 @@
         <menu>
             <item
                 android:id="@+id/enter"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@mipmap/feedback_icon"
                 android:title="FeedBack" />
             <item
                 android:id="@+id/share"
