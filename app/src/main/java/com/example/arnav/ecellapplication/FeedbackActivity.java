@@ -32,6 +32,7 @@ public class FeedbackActivity extends AppCompatActivity {
             reload();
         }
 
+        //TODO(1)-send the id of image instead of the actual resource
         private List<EventCard> createEvents() {
             List<EventCard> eventList = new ArrayList<>();
             eventList.add(new EventCard("Event 1", "july",getResources().getDrawable(R.mipmap.sample1),null ));
