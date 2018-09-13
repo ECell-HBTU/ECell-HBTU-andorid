@@ -95,7 +95,8 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(this,EventsActivity.class);
             startActivity(intent);
         } else if (id == R.id.vision) {
-
+            Intent intent = new Intent(this,VisionActivity.class);
+            startActivity(intent);
         } else if (id == R.id.archives) {
             Intent intent = new Intent(this,ArchivesActivity.class);
             startActivity(intent);

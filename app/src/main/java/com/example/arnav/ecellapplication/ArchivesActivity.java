@@ -8,8 +8,7 @@ import android.support.v7.widget.StaggeredGridLayoutManager;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ArchivesActivity extends AppCompatActivity {
-
+public class ArchivesActivity extends AppCompatActivity{
     RecyclerView recyclerView;
 
     @Override
