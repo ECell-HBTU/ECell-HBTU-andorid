@@ -65,7 +65,7 @@ public class ArchiveImageAdapter extends RecyclerView.Adapter<ArchiveImageAdapte
                         public void run() {
                             imageView.setVisibility(View.INVISIBLE);
                         }
-                    },3000);
+                    },1500);
                 }
             });
         }
