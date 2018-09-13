@@ -20,8 +20,8 @@ public class ArchivesActivity extends AppCompatActivity{
 
         List<Event> events = new ArrayList<>();
 
-        events.add(new Event("Startup Boosting Workshop","1st Sept, 2018","11AM to 1PM",R.mipmap.sample1));
-        events.add(new Event("Talk on Waste Management and start-ups Q/A session","23rd Oct, 2018","5PM to 6PM",R.mipmap.sample4));
+        events.add(new Event("Startup Boosting Workshop","1st Sept, 2018","11AM to 1PM",R.mipmap.archive7));
+        events.add(new Event("Talk on Waste Management and start-ups Q/A session","23rd Oct, 2018","5PM to 6PM",R.mipmap.archive8));
         events.add(new Event("How to gain traction in the initial months?","11th Sept, 2018","10AM to 11AM",R.mipmap.sample2));
         events.add(new Event("Pitching Workshop","12th Sept, 2018","10AM to 1PM",R.mipmap.sample3));
         events.add(new Event("Elevator Pitch","12th Sept, 2018","10AM to 1PM",R.mipmap.sample4));
