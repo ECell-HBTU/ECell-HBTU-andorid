@@ -24,7 +24,7 @@ public class ArchiveImageAdapter extends RecyclerView.Adapter<ArchiveImageAdapte
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_event_card,parent,false);
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.archive_item,parent,false);
         return new ViewHolder(v);
     }
 
@@ -54,9 +54,8 @@ public class ArchiveImageAdapter extends RecyclerView.Adapter<ArchiveImageAdapte
 
             title = itemView.findViewById(R.id.item_event_card_name);
             imageView = itemView.findViewById(R.id.item_event_card_image);
-           itemView.findViewById(R.id.card_view).setLayoutParams(new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT,RelativeLayout.LayoutParams.WRAP_CONTENT));
 
-            itemView.setOnClickListener(new View.OnClickListener() {
+            /*itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     imageView.setVisibility(View.VISIBLE);
@@ -67,7 +66,7 @@ public class ArchiveImageAdapter extends RecyclerView.Adapter<ArchiveImageAdapte
                         }
                     },1500);
                 }
-            });
+            });*/
         }
     }
 }
