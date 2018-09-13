@@ -1,6 +1,7 @@
 package com.example.arnav.ecellapplication;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -25,6 +26,9 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        initializeSharedPrefs();            //will be used later at the time of registration
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -104,5 +108,18 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void initializeSharedPrefs(){
+        SharedPreferences sharedPreferences=getSharedPreferences("userInfo",MODE_PRIVATE);
+        SharedPreferences.Editor editor=sharedPreferences.edit();
+
+        editor.putString("userName",null);
+        editor.putString("userEmail",null);
+        editor.putString("userBranch",null);
+        editor.putString("userYear",null);
+        editor.putString("events",null);
+
+        editor.apply();
     }
 }
