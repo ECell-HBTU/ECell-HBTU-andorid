@@ -55,8 +55,7 @@ public class EventDetailActivity extends AppCompatActivity {
     }
 
     public void backToEventsActivity(View v){
-        Intent intent=new Intent(this,EventsActivity.class);
-        startActivity(intent);
+       onBackPressed();
     }
 
     public void toRegistrationActivity(View v){
