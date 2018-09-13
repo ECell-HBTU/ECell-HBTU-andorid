@@ -13,12 +13,10 @@ import java.util.List;
 
 public class EventsActivity extends AppCompatActivity {
     private List<Event> events;
-    private Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_events);
-        context=this;
 
         RecyclerView rView= findViewById(R.id.eventList);
         rView.setHasFixedSize(true);
