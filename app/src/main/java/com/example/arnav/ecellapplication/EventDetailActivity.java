@@ -34,10 +34,10 @@ public class EventDetailActivity extends AppCompatActivity {
 
     }
     @Override
-    protected void onStart(){
+    /*protected void onStart(){
         super.onStart();
         setRegisterButtonLook();
-    }
+    }*/
 
     public void setRegisterButtonLook() {
         SharedPreferences sharedPreferences = getSharedPreferences("userInfo", MODE_PRIVATE);
@@ -74,6 +74,7 @@ public class EventDetailActivity extends AppCompatActivity {
 
             editor.apply();
 
+            setRegisterButtonLook();
             Toast.makeText(this,"Registered Successfully!",Toast.LENGTH_LONG).show();
 
         }
