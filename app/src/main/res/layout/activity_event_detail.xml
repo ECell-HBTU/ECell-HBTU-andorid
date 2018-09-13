@@ -81,7 +81,8 @@
                 android:layout_height="30dp"
                 android:text="Register"
                 android:textColor="@color/white"
-                android:background="@color/colorPrimary"/>
+                android:background="@color/colorPrimary"
+                android:onClick="toRegistrationActivity"/>
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
