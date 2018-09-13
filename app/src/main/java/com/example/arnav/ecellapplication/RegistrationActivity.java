@@ -66,7 +66,6 @@ public class RegistrationActivity extends AppCompatActivity {
         editor.apply();
         Toast.makeText(this,"Registered Successfully!",Toast.LENGTH_LONG).show();
 
-        Intent intent=new Intent(this,EventsActivity.class);
-        startActivity(intent);
+        new EventDetailActivity().onBackPressed();
     }
 }
