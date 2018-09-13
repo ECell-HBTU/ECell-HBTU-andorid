@@ -14,7 +14,7 @@
             android:title="Events" />
         <item
             android:id="@+id/vision"
-            android:icon="@mipmap/vision_material_icon"
+            android:icon="@mipmap/vision_icon"
             android:title="Vision" />
         <item
             android:id="@+id/archives"
