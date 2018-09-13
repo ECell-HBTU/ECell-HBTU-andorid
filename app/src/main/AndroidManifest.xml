@@ -25,7 +25,10 @@
         <activity android:name=".EventDetailActivity" />
         <activity android:name=".FeedbackActivity" />
         <activity android:name=".ArchivesActivity"></activity>
-        <activity android:name=".RegistrationActivity"></activity>
+
+        <activity android:name=".RegistrationActivity"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
     </application>
 
 </manifest>
