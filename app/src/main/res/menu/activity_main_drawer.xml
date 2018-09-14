@@ -10,11 +10,11 @@
             android:title="Team"/>
         <item
             android:id="@+id/events"
-            android:icon="@mipmap/events_icon"
+            android:icon="@drawable/ic_menu_camera"
             android:title="Events" />
         <item
             android:id="@+id/vision"
-            android:icon="@mipmap/vision_icon"
+            android:icon="@drawable/ic_menu_manage"
             android:title="Vision" />
         <item
             android:id="@+id/archives"
@@ -22,16 +22,16 @@
             android:title="Archives" />
     </group>
 
-    <item android:title="Binder">
+    <item android:title="Experimental Features">
         <menu>
             <item
                 android:id="@+id/enter"
-                android:icon="@mipmap/feedback_icon"
+                android:icon="@drawable/ic_menu_send"
                 android:title="FeedBack" />
             <item
                 android:id="@+id/share"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:title="Enter Binder" />
         </menu>
     </item>
 

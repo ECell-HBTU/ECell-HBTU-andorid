@@ -90,7 +90,8 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.team) {
-            // Handle the camera action
+            Intent intent = new Intent(this,TeamActivity.class);
+            startActivity(intent);
         } else if (id == R.id.events) {
             Intent intent = new Intent(this,EventsActivity.class);
             startActivity(intent);

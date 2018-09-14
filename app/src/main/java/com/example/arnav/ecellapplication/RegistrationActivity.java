@@ -64,6 +64,7 @@ public class RegistrationActivity extends AppCompatActivity {
         editor.putString("events",eventsTillNow+eventTitle+",");
 
         editor.apply();
+        editor.commit();
         Toast.makeText(this,"Registered Successfully!",Toast.LENGTH_LONG).show();
 
         Intent intent=new Intent(this,EventsActivity.class);

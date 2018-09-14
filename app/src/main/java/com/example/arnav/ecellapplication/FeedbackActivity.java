@@ -38,7 +38,7 @@ public class FeedbackActivity extends AppCompatActivity {
             eventList.add(new EventCard("Event 1", "july",getResources().getDrawable(R.mipmap.event4),null ));
             eventList.add(new EventCard("Event 2", "august",getResources().getDrawable(R.mipmap.event2),null));
             eventList.add(new EventCard("Event 3", "may",getResources().getDrawable(R.mipmap.event1),null ));
-            eventList.add(new EventCard("Event 4", "january",getResources().getDrawable(R.mipmap.event3),null ));
+            eventList.add(new EventCard("Event 4", "january",getResources().getDrawable(R.mipmap.event7),null ));
             eventList.add(new EventCard("Event 5", "december",getResources().getDrawable(R.mipmap.event5),null ));
             eventList.add(new EventCard("Event 6", "january",getResources().getDrawable(R.mipmap.event6),null ));
             eventList.add(new EventCard("Event ...", "february",getResources().getDrawable(R.mipmap.event8),null ));
