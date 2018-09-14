@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.arnav.ecellapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +21,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EventsActivity"></activity>
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".EventDetailActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".ArchivesActivity" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".VisionActivity" />
+        <activity android:name=".TeamActivity"></activity>
     </application>
 
 </manifest>

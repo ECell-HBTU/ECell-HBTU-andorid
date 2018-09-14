@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".EventDetailActivity">
+        <LinearLayout
+            android:id="@+id/event_title_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/event_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/million_dollar_idea"
+                android:textAlignment="center"
+                android:textSize="30sp"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/event_image_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/event_image"
+                android:layout_width="250dp"
+                android:layout_height="370dp"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/description_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/event_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lorem_ipusm"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/back_button"
+                android:gravity="center"
+                android:layout_margin="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Back"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:onClick="backToEventsActivity"/>
+
+
+            <Button
+                android:id="@+id/register_button"
+                android:gravity="center"
+                android:layout_margin="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:background="@color/colorPrimary"
+                android:onClick="toRegistrationActivity"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

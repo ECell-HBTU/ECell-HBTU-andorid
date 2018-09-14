@@ -1,6 +1,7 @@
 package com.example.arnav.ecellapplication;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -28,6 +29,9 @@ public class MainActivity extends AppCompatActivity
         
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        initializeSharedPrefs();            //will be used later at the time of registration
+
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -35,7 +39,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Profile under development", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
@@ -89,16 +93,20 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.team) {
-            // Handle the camera action
+            Intent intent = new Intent(this,TeamActivity.class);
+            startActivity(intent);
         } else if (id == R.id.events) {
             Intent intent = new Intent(this,EventsActivity.class);
             startActivity(intent);
         } else if (id == R.id.vision) {
-
+            Intent intent = new Intent(this,VisionActivity.class);
+            startActivity(intent);
         } else if (id == R.id.archives) {
-
+            Intent intent = new Intent(this,ArchivesActivity.class);
+            startActivity(intent);
         } else if (id == R.id.enter) {
-
+            Intent intent = new Intent(this,FeedbackActivity.class);
+            startActivity(intent);
         } else if (id == R.id.share) {
 
         }
@@ -106,5 +114,18 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void initializeSharedPrefs(){
+        SharedPreferences sharedPreferences=getSharedPreferences("userInfo",MODE_PRIVATE);
+        SharedPreferences.Editor editor=sharedPreferences.edit();
+
+        editor.putString("userName",null);
+        editor.putString("userEmail",null);
+        editor.putString("userBranch",null);
+        editor.putString("userYear",null);
+        editor.putString("events",null);
+
+        editor.apply();
     }
 }
