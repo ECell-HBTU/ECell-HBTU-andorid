@@ -32,6 +32,8 @@ public class ArchiveImageAdapter extends RecyclerView.Adapter<ArchiveImageAdapte
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.title.setText(events.get(position).event_title);
         holder.imageView.setImageResource(events.get(position).eventImageId);
+        holder.date.setText(events.get(position).event_date);
+        holder.date.setVisibility(View.INVISIBLE);
         holder.title.setVisibility(View.INVISIBLE);
     }
 
@@ -44,29 +46,32 @@ public class ArchiveImageAdapter extends RecyclerView.Adapter<ArchiveImageAdapte
 
     class ViewHolder extends RecyclerView.ViewHolder{
 
-        String name,date;
+        String name;
         int image;
-        TextView title;
+        TextView title,date;
         ImageView imageView;
 
-        public ViewHolder(View itemView) {
+        public ViewHolder(final View itemView) {
             super(itemView);
 
             title = itemView.findViewById(R.id.item_event_card_name);
+            date = itemView.findViewById(R.id.item_event_card_city);
             imageView = itemView.findViewById(R.id.item_event_card_image);
 
-            /*itemView.setOnClickListener(new View.OnClickListener() {
+            itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    imageView.setVisibility(View.VISIBLE);
+                    title.setVisibility(View.VISIBLE);
+                    date.setVisibility(View.VISIBLE);
                     new android.os.Handler().postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            imageView.setVisibility(View.INVISIBLE);
+                            title.setVisibility(View.INVISIBLE);
+                            date.setVisibility(View.INVISIBLE);
                         }
-                    },1500);
+                    },3000);
                 }
-            });*/
+            });
         }
     }
 }
