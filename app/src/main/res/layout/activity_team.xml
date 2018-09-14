@@ -25,9 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="#fff"
-            android:textSize="50sp"
+            android:textSize="40sp"
             android:text="T H E   T E A M"
-            android:fontFamily="cursive"
             android:gravity="center_horizontal"
             android:layout_alignBottom="@id/team"/>
     </RelativeLayout>
@@ -35,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="President"
-        android:fontFamily="casual"
+
         android:textSize="30sp"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -49,7 +48,7 @@
         <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/president1" />
         <TextView
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -63,7 +62,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="casual"
         android:text="Vice President"
         android:layout_marginTop="10dp"
         android:textColor="@color/black"
@@ -97,7 +95,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:fontFamily="casual"
         android:text="Web And App Development"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -110,7 +107,7 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/mine" />
         <TextView
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
@@ -125,7 +122,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:fontFamily="casual"
         android:text="Hospitality"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -156,7 +152,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:fontFamily="casual"
         android:text="Hospitality"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -184,7 +179,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:fontFamily="casual"
         android:text="Hospitality"
         android:textSize="25sp"
         android:layout_marginTop="20dp"
@@ -215,7 +209,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:fontFamily="casual"
         android:text="Hospitality"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -243,7 +236,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:fontFamily="casual"
         android:text="Hospitality"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -274,7 +266,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:fontFamily="casual"
         android:text="Hospitality"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -302,7 +293,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:fontFamily="casual"
         android:text="Hospitality"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -333,7 +323,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:fontFamily="casual"
         android:text="Hospitality"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -361,7 +350,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
-        android:fontFamily="casual"
         android:text="Hospitality"
         android:textSize="25sp"
         android:textStyle="bold"
