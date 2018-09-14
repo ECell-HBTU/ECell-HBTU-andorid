@@ -85,13 +85,13 @@
                 android:layout_margin="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Harshit Tripathi\n\n3rd Btech"
+                android:text="Vishal Gupta\n\n3rd Btech"
                 android:textStyle="italic"
                 android:textSize="20sp"/>
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/vishal_sir" />
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
@@ -110,13 +110,13 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/arnav_sir" />
         <TextView
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harshit Tripathi\n\n3rd Btech"
+            android:text="Arnav Srivastava\n\n3rd Btech"
             android:textStyle="italic"
             android:textSize="20sp"/>
 
@@ -144,20 +144,20 @@
             android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harshit Tripathi\n\n3rd Btech"
+            android:text="Praful Chauhan\n\n3rd Btech"
             android:textStyle="italic"
             android:textSize="20sp"/>
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/praful_sir" />
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:fontFamily="casual"
-        android:text="Hospitality"
+        android:text="Events"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -169,13 +169,13 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/tanul_sir" />
         <TextView
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harshit Tripathi\n\n3rd Btech"
+            android:text="Tanul Singh\n\n3rd Btech"
             android:textStyle="italic"
             android:textSize="20sp"/>
 
@@ -185,7 +185,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:fontFamily="casual"
-        android:text="Hospitality"
+        android:text="Marketing"
         android:textSize="25sp"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
@@ -203,20 +203,20 @@
             android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harshit Tripathi\n\n3rd Btech"
+            android:text="Puru Bhatnagar\n\n3rd Btech"
             android:textStyle="italic"
             android:textSize="20sp"/>
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/puru_sir" />
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:fontFamily="casual"
-        android:text="Hospitality"
+        android:text="Finance"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -228,13 +228,13 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/kartikey_sir" />
         <TextView
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harshit Tripathi\n\n3rd Btech"
+            android:text="Kartikeya Jain\n\n3rd Btech"
             android:textStyle="italic"
             android:textSize="20sp"/>
 
@@ -244,7 +244,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:fontFamily="casual"
-        android:text="Hospitality"
+        android:text="Logistics"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -262,20 +262,20 @@
             android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harshit Tripathi\n\n3rd Btech"
+            android:text="Naman Kumar\n\n3rd Btech"
             android:textStyle="italic"
             android:textSize="20sp"/>
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/naman_sir" />
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:fontFamily="casual"
-        android:text="Hospitality"
+        android:text="Publicity"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -287,13 +287,13 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/mohit_sir" />
         <TextView
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harshit Tripathi\n\n3rd Btech"
+            android:text="Mohit Ojha\n\n3rd Btech"
             android:textStyle="italic"
             android:textSize="20sp"/>
 
@@ -303,7 +303,7 @@
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:fontFamily="casual"
-        android:text="Hospitality"
+        android:text="Design"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -321,20 +321,20 @@
             android:layout_margin="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harshit Tripathi\n\n3rd Btech"
+            android:text="Rishu Trivedi\n\n3rd Btech"
             android:textStyle="italic"
             android:textSize="20sp"/>
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/rishu_sir" />
     </LinearLayout>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:fontFamily="casual"
-        android:text="Hospitality"
+        android:text="Content Writing"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
@@ -346,47 +346,17 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@mipmap/president" />
+            android:src="@mipmap/sonia_mam" />
         <TextView
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Harshit Tripathi\n\n3rd Btech"
+            android:text="Sonia Malik\n\n3rd Btech"
             android:textStyle="italic"
             android:textSize="20sp"/>
 
-    </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/black"
-        android:fontFamily="casual"
-        android:text="Hospitality"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_gravity="right">
-        <Space
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-        <TextView
-            android:layout_margin="10dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Harshit Tripathi\n\n3rd Btech"
-            android:textStyle="italic"
-            android:textSize="20sp"/>
-        <ImageView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:src="@mipmap/president" />
+
     </LinearLayout>
 </LinearLayout>
 </ScrollView>

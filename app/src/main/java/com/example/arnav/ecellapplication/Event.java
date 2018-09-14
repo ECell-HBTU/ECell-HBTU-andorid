@@ -11,5 +11,6 @@ public class Event {
         this.event_date=event_date;
         this.event_timing=event_timing;
         this.eventImageId=eventImageId;
+
     }
 }
