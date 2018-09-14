@@ -23,10 +23,9 @@
 
         <LinearLayout
             android:orientation="vertical"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:visibility="invisible"
             android:background="@drawable/background_black_gradation"
             android:layout_alignParentBottom="true">
 
@@ -35,16 +34,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
+                android:text="sample1"
                 android:textColor="@android:color/white"
-                android:textSize="26sp"/>
+                android:textSize="18sp"/>
 
             <TextView
                 android:id="@+id/item_event_card_city"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="sample2"
+                android:visibility="gone"
                 android:textStyle="bold"
                 android:textColor="@android:color/white"
-                android:textSize="20sp"/>
+                android:textSize="12sp"/>
 
         </LinearLayout>
 

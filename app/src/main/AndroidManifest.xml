@@ -27,8 +27,9 @@
         <activity android:name=".ArchivesActivity" />
         <activity
             android:name=".RegistrationActivity"
-            android:windowSoftInputMode="adjustResize"></activity>
-        <activity android:name=".VisionActivity"></activity>
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".VisionActivity" />
+        <activity android:name=".TeamActivity"></activity>
     </application>
 
 </manifest>

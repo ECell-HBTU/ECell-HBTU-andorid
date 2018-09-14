@@ -15,16 +15,6 @@ import java.util.List;
 
 public class RViewAdapter extends RecyclerView.Adapter<RViewAdapter.EventViewHolder> {
 
-    /* private OnItemClickListener myListener;
-
-    public interface OnItemClickListener{
-        void onItemClick(int position);
-    }
-
-    public void setOnItemClickListener(OnItemClickListener listener){
-        myListener=listener;
-    }*/
-
     private static EventsActivity current;
     private List<Event> events;
 
