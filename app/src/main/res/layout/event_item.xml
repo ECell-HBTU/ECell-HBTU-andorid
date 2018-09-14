@@ -17,7 +17,7 @@
             android:id="@+id/event_image"
             android:layout_width="match_parent"
             android:layout_height="150dp"
-            android:scaleType="center"/><!--may need to change scaleType-->
+            android:scaleType="fitXY"/><!--may need to change scaleType-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
