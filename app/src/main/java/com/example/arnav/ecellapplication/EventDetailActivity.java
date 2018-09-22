@@ -19,6 +19,7 @@ public class EventDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_detail);
 
+
         Bundle extras=getIntent().getExtras();
 
         if(extras!=null){

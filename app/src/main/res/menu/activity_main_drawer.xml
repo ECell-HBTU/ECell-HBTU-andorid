@@ -21,7 +21,6 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="Archives" />
     </group>
-
     <item android:title="Experimental Features">
         <menu>
             <item

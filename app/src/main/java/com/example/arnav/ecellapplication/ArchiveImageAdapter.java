@@ -2,6 +2,7 @@ package com.example.arnav.ecellapplication;
 
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +21,7 @@ public class ArchiveImageAdapter extends RecyclerView.Adapter<ArchiveImageAdapte
     public ArchiveImageAdapter(List<Event> events){
         this.events = events;
     }
+
 
     @NonNull
     @Override

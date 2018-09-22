@@ -10,6 +10,12 @@
     android:id="@+id/card_view"
     card_view:cardCornerRadius="8dp"
     card_view:cardBackgroundColor="@android:color/white">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
 
     <RelativeLayout
         android:layout_width="wrap_content"

@@ -11,4 +11,10 @@
         android:id="@+id/recycler_view"
         android:background="@color/grey">
     </android.support.v7.widget.RecyclerView>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
 </android.support.constraint.ConstraintLayout>

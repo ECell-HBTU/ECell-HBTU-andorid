@@ -30,7 +30,12 @@
         app:topOverlay="@layout/overlay_top"
         app:translationDiff="12"
         app:visibleCount="3" />
-
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
     <ProgressBar
         android:id="@+id/activity_main_progress_bar"
         android:layout_width="wrap_content"

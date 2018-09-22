@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ECellApplication</string>
+    <string name="app_name">E-Cell Application HBTU</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">GIIEC</string>
@@ -13,9 +13,15 @@
     <string name="done">Done</string>
     <string name="registered">Registered</string>
     <string name="vision_statement1">
-    Our aim is to help the aspiring entrepreneurs to step into an exciting atmosphere where they are mentored in every walk of their entrepreneurial jouney.
+    Our aim is to help the aspiring entrepreneurs to step into an exciting atmosphere where they are mentored in every walk of their entrepreneurial journey.
     </string>
     <string name="vision_statement2">
         We target our goals to the country\'s development by enabling effective interaction between the mentors, professionals, firms and the students.
     </string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+<string name="title">Genx Innovation, Incubation and Entrepreneurship Cell</string>
+    <string name="title_activity_splash">SplashActivity</string>
 </resources>
