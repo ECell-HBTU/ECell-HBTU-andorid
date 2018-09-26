@@ -29,7 +29,7 @@
             android:name=".RegistrationActivity"
             android:windowSoftInputMode="adjustResize" />
         <activity android:name=".VisionActivity" />
-        <activity android:name=".TeamActivity" />
+        <activity android:name=".TeamActivity1" />
 
         <activity
             android:name=".SplashActivity"
