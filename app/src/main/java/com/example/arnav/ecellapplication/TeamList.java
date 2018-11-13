@@ -37,7 +37,6 @@ public class TeamList extends ArrayAdapter<String> {
         titleText.setText(maintitle[position]);
         imageView.setImageResource(imgid[position]);
         subtitleText.setText(subtitle[position]);
-
         return rowView;
 
     };

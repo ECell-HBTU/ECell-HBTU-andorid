@@ -3,13 +3,13 @@ package com.example.arnav.ecellapplication;
 public class DataModel {
 
     String name;
-    String version;
+    String dept;
     int id_;
     int image;
 
     public DataModel(String name, String version, int id_, int image) {
         this.name = name;
-        this.version = version;
+        this.dept = version;
         this.id_ = id_;
         this.image=image;
     }
@@ -19,7 +19,7 @@ public class DataModel {
     }
 
     public String getVersion() {
-        return version;
+        return dept;
     }
 
     public int getImage() {

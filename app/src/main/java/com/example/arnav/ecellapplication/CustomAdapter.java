@@ -37,8 +37,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.members_layout, parent, false);
 
-        view.setOnClickListener(TeamActivity1.myOnClickListener);
-
         MyViewHolder myViewHolder = new MyViewHolder(view);
         return myViewHolder;
     }
