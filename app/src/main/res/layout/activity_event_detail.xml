@@ -2,6 +2,7 @@
 <ScrollView
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:background="@drawable/gradient_bottom"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -36,9 +37,47 @@
             android:padding="10dp">
             <ImageView
                 android:id="@+id/event_image"
-                android:layout_width="250dp"
-                android:layout_height="370dp"
-                android:scaleType="fitXY"/>
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/event2"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/button_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9 Feb 1800hrs"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AUDITORIUM"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_white"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/register_button"
+                android:gravity="center"
+                android:layout_margin="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:background="@drawable/oval_shape"
+                android:onClick="toRegistrationActivity"/>
         </LinearLayout>
 
         <LinearLayout
@@ -53,37 +92,10 @@
                 android:id="@+id/event_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textColor="@color/text_white"
                 android:text="@string/lorem_ipusm" />
         </LinearLayout>
 
-        <LinearLayout
-            android:id="@+id/button_container"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center">
-            <Button
-                android:id="@+id/back_button"
-                android:gravity="center"
-                android:layout_margin="15dp"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="Back"
-                android:textColor="@color/white"
-                android:background="@color/colorPrimary"
-                android:onClick="backToEventsActivity"/>
 
-
-            <Button
-                android:id="@+id/register_button"
-                android:gravity="center"
-                android:layout_margin="15dp"
-                android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:text="Register"
-                android:textColor="@color/white"
-                android:background="@color/colorPrimary"
-                android:onClick="toRegistrationActivity"/>
-        </LinearLayout>
     </LinearLayout>
 </ScrollView>

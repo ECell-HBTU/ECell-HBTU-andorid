@@ -18,7 +18,7 @@ public class EventDetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_detail);
-
+/*
 
         Bundle extras=getIntent().getExtras();
 
@@ -31,7 +31,7 @@ public class EventDetailActivity extends AppCompatActivity {
         ImageView imageBox= findViewById(R.id.event_image);
 
         titleBox.setText(eventTitle);
-        imageBox.setBackground(getResources().getDrawable(eventImageId));
+        imageBox.setBackground(getResources().getDrawable(eventImageId));*/
 
     }
     @Override
@@ -41,7 +41,7 @@ public class EventDetailActivity extends AppCompatActivity {
     }
 
     public void setRegisterButtonLook() {
-        SharedPreferences sharedPreferences = getSharedPreferences("userInfo", MODE_PRIVATE);
+        /*SharedPreferences sharedPreferences = getSharedPreferences("userInfo", MODE_PRIVATE);
 
         if (sharedPreferences.getString("events", null) != null) {
             if (sharedPreferences.getString("events", null).contains(eventTitle)) {
@@ -51,7 +51,7 @@ public class EventDetailActivity extends AppCompatActivity {
                 registerBtn.setBackgroundColor(getResources().getColor(R.color.green));
                 registerBtn.setClickable(false);
             }
-        }
+        }*/
 
     }
 

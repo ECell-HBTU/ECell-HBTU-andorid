@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "750068514396",
+    "firebase_url": "https://esummit-bc6c3.firebaseio.com",
+    "project_id": "esummit-bc6c3",
+    "storage_bucket": "esummit-bc6c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750068514396:android:5f9e230981cdcb8d",
+        "android_client_info": {
+          "package_name": "com.example.arnav.ecellapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750068514396-87dou9t40ga1f8q41nojp2503jov5v18.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arnav.ecellapplication",
+            "certificate_hash": "e5100697ece491b204dbc4f3c602554479bb188f"
+          }
+        },
+        {
+          "client_id": "750068514396-oo0o4ga5edemga2sh3nsag1u6pkbtej2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQU0TTkZ2Y5CM-p3VRRQcVjeTKY59OCmA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750068514396-oo0o4ga5edemga2sh3nsag1u6pkbtej2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

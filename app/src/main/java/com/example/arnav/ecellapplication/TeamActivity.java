@@ -28,9 +28,9 @@ public class TeamActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_team);
-
+/*
         TeamList adapter=new TeamList(this, maintitle, subtitle,imgid);
         list=findViewById(R.id.list);
-        list.setAdapter(adapter);
+        list.setAdapter(adapter);*/
     }
 }

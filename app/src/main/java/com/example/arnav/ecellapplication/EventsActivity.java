@@ -18,7 +18,7 @@ public class EventsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_events);
-
+/*
         RecyclerView rView= findViewById(R.id.eventList);
         rView.setHasFixedSize(true);
 
@@ -27,7 +27,7 @@ public class EventsActivity extends AppCompatActivity {
 
         initializeData();
         RViewAdapter adapter= new RViewAdapter(events,this);
-        rView.setAdapter(adapter);
+        rView.setAdapter(adapter);*/
 
         /*adapter.setOnItemClickListener(new RViewAdapter.OnItemClickListener() {
             @Override
@@ -62,4 +62,8 @@ public class EventsActivity extends AppCompatActivity {
         events.add(new Event("Elevator Pitch","12th Sept, 2018","10AM to 1PM",R.mipmap.event5));
     }
 
+    public void onClickEventImage(View v) {
+        Intent i = new Intent(this, EventDetailActivity.class);
+        startActivity(i);
+    }
 }
