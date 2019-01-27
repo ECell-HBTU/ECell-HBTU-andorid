@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/event2"
+    android:id="@+id/team_image"
+    android:scaleType="fitXY"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dept name"
+        android:textColor="@color/text_white"
+        android:layout_alignBottom="@id/team_image"/>
+
+</LinearLayout>

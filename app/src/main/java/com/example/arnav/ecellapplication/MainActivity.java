@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.team) {
-            Intent intent = new Intent(this,TeamActivity1.class);
+            Intent intent = new Intent(this,TeamActivity.class);
             startActivity(intent);
         } else if (id == R.id.events) {
             Intent intent = new Intent(this,EventsActivity.class);
